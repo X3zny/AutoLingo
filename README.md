@@ -1,4 +1,4 @@
-# LingosBot
+# 🔰 Bot for Lingos
 
 The only bot for ``lingos.pl`` there are 3 languages ​​to choose from this version is beta more on discord (on discord you can add your own languages)
 
