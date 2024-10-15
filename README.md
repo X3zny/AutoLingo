@@ -1,7 +1,8 @@
 # 🔰 Bot do [LINGOS](https://lingos.pl/)
 
-**PIERWSZY** bot do lingosa
+**PIERWSZY** bot do lingosa 
 
+**PROSTY** w użyciu
 
 # 🍍 Jak to używać
   
