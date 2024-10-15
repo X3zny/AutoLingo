@@ -1,35 +1,34 @@
-# 🔰 Bot for Lingos
+# 🔰 Bot do [LINGOS](https://lingos.pl/)
 
-The only bot for ``lingos.pl`` there are 3 languages ​​to choose from this version is beta more on discord (on discord you can add your own languages)
-
-
-## How to use
-1. Download the ```AutoLingo``` folder
-2. Go to ```chrome://extensions/``` (you need to turn on dev mode)
-3. And upload the folder
-
-## How i can add my own lang
+**PIERWSZY** bot do lingosa
 
 
+# 🍍 Jak to używać
+  
+1. Pobierz folder **NIE MOŻE BYĆ SKOMPRESOWANY**
+2. Idź do `chrome://extensions/`, i włącz tryb **DEVELOPERA**
+3. Kliknij przycisk `Załaduj rozpakowanie` i wybierz ten folder
+5. Gotowe nie zapomnij o ⭐
 
-## Authors
+# ⚠️ Jak dodać swój język
 
+1. Idź do folderu lang
+2. I dodaj nowy Język **(np: japoński.json)**
+3. W pliku `popup.html` dodaj
 
+```html
+    <select id="languageSelect">
+        <option value="angielski">Angielski</option>
+        <option value="hiszpanski">Hiszpanski</option>
+        <option value="niemiecki">Niemiecki</option>
+        <option value="nazwa_twojego_języka">nazwa_twojego_języka</option>
+    </select>
+```
 
-
-
-- [@X3zny](https://github.com/X3zny/)
-
-
-
-
-
-
-
-## Showcase
-
-
-
-
-![icon](https://cdn.discordapp.com/attachments/1293633442373832714/1293804623173521469/Zrzut_ekranu_2024-10-10_071719.png?ex=6708b4f3&is=67076373&hm=6424c04668d102bd98ff355bd6616e304c4cfdaedcf7134ae81580fade890d1c&)
-
+4. W `nazwa_twojego_języka.json` zrób taki pattern
+```json
+{
+    "pytanie": "odpowiedż",
+}
+```
+5. Gotowe nie zapomnij o ⭐
